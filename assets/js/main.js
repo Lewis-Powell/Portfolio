@@ -10,6 +10,7 @@
 		$body = $('body'),
 		$wrapper = $('#page-wrapper'),
 		$banner = $('#banner'),
+		$portfolio = $('#two'),
 		$header = $('#header');
 
 	// Breakpoints.
@@ -48,6 +49,13 @@
 			.scrolly({
 				speed: 1500,
 				offset: $header.outerHeight()
+			});
+
+		// Scrolly.
+		$('.scrollyy')
+			.scrolly({
+				speed: 1500,
+				offset: 48
 			});
 
 	// Menu.
